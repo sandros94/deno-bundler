@@ -134,7 +134,7 @@ export async function build(options: BuildOptions = {}): Promise<BuildResult> {
   const result = await Deno.bundle({
     entrypoints,
     external,
-    packages: "external",
+    packages: mappings !== null ? "external" : "bundle",
     outputDir: outputPath ? undefined : outputDir,
     outputPath,
     format: "esm",
