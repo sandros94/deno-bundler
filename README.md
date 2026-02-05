@@ -1,4 +1,4 @@
-# @sandros94/deno-bundler
+# jsr:@sandros94/deno-bundler
 
 > A powerful Deno bundler wrapper that provides external package resolution and
 > string replacements for seamless module bundling.
