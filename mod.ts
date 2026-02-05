@@ -54,6 +54,16 @@ import { Workspace } from "@deno/loader";
 
 // #region Types
 
+/**
+ * Build options for the bundler.
+ *
+ * @property external - List of packages to mark as external (won't be bundled)
+ * @property entrypoints - Entry point files to bundle
+ * @property outputDir - Output directory for bundled files
+ * @property outputPath - Output path for a single file bundle
+ * @property minify - Whether to minify the output
+ * @property replace - String replacements to apply to the bundled output
+ */
 export interface BuildOptions {
   /**
    * List of packages to mark as external (won't be bundled).
@@ -71,7 +81,7 @@ export interface BuildOptions {
    */
   outputDir?: string;
   /**
-   * Output path for a single file bundle (alternative to outputDir).
+   * Output path for a single file bundle.
    */
   outputPath?: string;
   /**
@@ -87,6 +97,12 @@ export interface BuildOptions {
   replace?: Record<string, string>;
 }
 
+/**
+ * Result of the build process.
+ *
+ * @property duration - Time taken to bundle in milliseconds
+ * @property outputFiles - Output files that were written
+ */
 export interface BuildResult {
   /** Time taken to bundle in milliseconds */
   duration: number;
