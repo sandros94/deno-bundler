@@ -1,0 +1,14 @@
+{
+  "name": "@sandros94/deno-bundler",
+  "license": "MIT",
+  "version": "0.0.1",
+  "exports": "./mod.ts",
+  "unstable": ["bundle"],
+  "imports": {
+    "@std/cli": "jsr:@std/cli@^1.0.27",
+    "@std/path": "jsr:@std/path@^1.1.4",
+    "@std/expect": "jsr:@std/expect@^1.0.17", // dev
+    "@std/testing": "jsr:@std/testing@^1.0.17", // dev
+    "@deno/loader": "jsr:@deno/loader@0.3.11"
+  }
+}
