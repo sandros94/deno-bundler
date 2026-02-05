@@ -1,15 +1,21 @@
 # @sandros94/deno-bundler
 
-A Deno bundler wrapper that provides external package resolution and string
-replacements.
+> A powerful Deno bundler wrapper that provides external package resolution and string replacements for seamless module bundling.
 
-## Features
+[![JSR Badge](https://jsr.io/badges/@sandros94/deno-bundler)](https://jsr.io/@sandros94/deno-bundler) [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://demo-deno-bundler-45xes.bunny.run)
 
-- **External package resolution**: Automatically rewrites bare specifiers to
-  their resolved Deno specifiers (`npm:`, `jsr:`, `https:`)
-- **String replacements**: Apply arbitrary string replacements to bundled output
-- **CLI support**: Use as a command-line tool with flexible argument parsing
-- **ESM output**: Generates ES modules with minification support
+## ✨ Features
+
+- 📦 **External package resolution**: Automatically rewrites bare specifiers to their resolved Deno specifiers (`npm:`, `jsr:`, `https:`)
+- 🔄 **String replacements**: Apply arbitrary string replacements to bundled output
+- 🖥️ **CLI support**: Use as a command-line tool with flexible argument parsing
+- 🚀 **ESM output**: Generates ES modules with minification support
+
+## 🔗 Quick Links
+
+- **Live Demo**: [https://demo-deno-bundler-45xes.bunny.run](https://demo-deno-bundler-45xes.bunny.run)
+- **Demo Repository**: [https://github.com/sandros94/demo-deno-bundler](https://github.com/sandros94/demo-deno-bundler)
+- **JSR Package**: [https://jsr.io/@sandros94/deno-bundler](https://jsr.io/@sandros94/deno-bundler)
 
 ## Installation
 
